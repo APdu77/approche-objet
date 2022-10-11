@@ -5,12 +5,9 @@ public class TestAdressePostale {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		AdressePostale adr1 = new AdressePostale();
+		AdressePostale adr1 = new AdressePostale(18, "rue des Tilleuls", 75008, "Paris" );
 		
-		System.out.println(adr1.numRue);
-		System.out.println(adr1.libelleRue);
-		System.out.println(adr1.codePostal);
-		System.out.println(adr1.ville);
+		
 		
 		//AdressePostale adr2 = new AdressePostale();
 		

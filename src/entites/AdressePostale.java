@@ -12,11 +12,11 @@ public class AdressePostale {
 	public int codePostal;
 	public String ville;
 
-	AdressePostale() {
-		numRue = 18;
-		libelleRue = "rue des Tilleuls";
-		codePostal = 75008;
-		ville= "Paris";
+	public AdressePostale(int num, String lib, int cp, String vil) {
+		numRue = num;
+		libelleRue = lib;
+		codePostal = cp;
+		ville= vil;
 	}
 	
 	
