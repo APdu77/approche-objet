@@ -17,8 +17,10 @@ public class AdressePostale {
 		libelleRue = lib;
 		codePostal = cp;
 		ville= vil;
-	}
 	
+
+	
+	}
 	
 	
 }
