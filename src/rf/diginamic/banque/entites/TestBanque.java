@@ -6,7 +6,8 @@ public class TestBanque {
 		// TODO Auto-generated method stub
 
 		Compte cpt = new Compte(37945682,1_000_000);
-		System.out.println("Le client "+ cpt.getNumero()+" dispose de "+cpt.getSolde());
+		System.out.println(cpt);
+		//System.out.println("Le client "+ cpt.getNumero()+" dispose de "+cpt.getSolde());
 		
 		
 	}
