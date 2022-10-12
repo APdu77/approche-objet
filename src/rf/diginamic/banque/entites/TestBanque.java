@@ -11,6 +11,11 @@ public class TestBanque {
 		CompteTaux cpt2 = new CompteTaux(10938456,15_008,10);
 		Compte[] tabCpt = {cpt1,cpt2};
 		
+		//ou
+		//Compte[] tabCpt = new Compte [2];
+		//tabCpt [0] = new Compte (37945682,1_000_000);
+		//tabCpt [1] = new CompteTaux (10938456,15_008,10);
+		
 		for (int i = 0; i<tabCpt.length;i++) {
 			System.out.println(tabCpt[i]);
 		}
