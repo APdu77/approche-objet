@@ -9,11 +9,11 @@ public class TestMethodeStatic {
 		int a = 86 ;
 		int b = 196 ;
 		
-		int result1 = Integer.valueOf(chaine);
-		int result2 = Integer.max(a,b);
+		int result = Integer.valueOf(chaine);
+		int max = Integer.max(a,b);
 		
-		System.out.println(result1);
-		System.out.println(result2);
+		System.out.println(result);
+		System.out.println(max);
 
 	}
 

@@ -2,8 +2,8 @@ package rf.diginamic.banque.entites;
 
 public class Compte {
 
-	private int numero;
-	private double solde;
+	protected int numero;
+	protected double solde;
 	
 	public Compte (int numero,double solde)	{
 		this.numero=numero;
@@ -11,7 +11,7 @@ public class Compte {
 	}
 	
 	public String toString()	{
-		return " Le client "+numero+" dispose de "+solde+"$";
+		return "Le client "+numero+" dispose de "+solde+"$";
 	}
 	
 	public int getNumero()	{
