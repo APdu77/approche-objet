@@ -1,6 +1,5 @@
 package rf.diginamic.banque.entites;
 
-import java.util.Iterator;
 
 public class TestBanque {
 
