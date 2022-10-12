@@ -11,7 +11,7 @@ public class Compte {
 	}
 	
 	public String toString()	{
-		return numero+" "+solde;
+		return " Le client "+numero+" dispose de "+solde+"$";
 	}
 	
 	public int getNumero()	{
