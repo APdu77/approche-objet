@@ -1,6 +1,4 @@
-package rf.diginamic.banque.entites;
-
-import javax.swing.text.AbstractDocument.LeafElement;
+package fr.diginamic.banque.entites;
 
 public class TestOperation {
 
