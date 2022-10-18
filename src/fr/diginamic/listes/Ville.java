@@ -1,6 +1,6 @@
 package fr.diginamic.listes;
 
-public class Ville {
+public class Ville implements Comparable<Ville>{
 	
 	private String nom;
 	private int nbHab;
@@ -12,6 +12,12 @@ public class Ville {
 		this.nbHab = nbHab;
 	}
 
+	@Override
+	public int compareTo(Ville other) {
+		// TODO Auto-generated method stub
+		return this.nom.compareTo(other.getNom());
+	}
+	
 	
 	public String toString()	{
 		return nom+"{"+nbHab+"}";
@@ -36,7 +42,7 @@ public class Ville {
 		this.nbHab = nbHab;
 	}
 
-	
-	
+
+
 	
 }
