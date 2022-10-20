@@ -26,7 +26,7 @@ public class TestVille2 {
 		System.out.println(villes);
 		//int result = v1.getNom().compareTo(villes.get(2).getNom());
 		//deja definie dans Ville2
-		Collections.sort(villes);
+		Collections.sort(villes);//using comparable
 		System.out.println(villes);
 		Collections.shuffle(villes);
 		System.out.println(villes);
